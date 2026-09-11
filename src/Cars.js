@@ -96,17 +96,14 @@ function Cars() {
           <CarsStatCard end={68.0} label="Peak Power (kW)" decimals={0} />
           <CarsStatCard end={300} label="Battery Voltage (V)" decimals={0} />
           <CarsStatCard end={5.4} label="Battery Capacity (kWh)" decimals={1} />
-          <CarsStatCard end={242.5} label="Total Weight Without Driver (kg)" decimals={1} />
 
+          <CarsStatCard end={203.7} label="Total Weight Without Driver (kg)" decimals={1} />
           <CarsStatCard end={2326} decimals={0} label="Torsional Stiffness (N·m/deg)" />
           <CarsStatCard end={237.3} label="Center of Gravity Height (mm)" decimals={1} />
-          <CarsStatCard end={51.4} label="Front Weight Distribution (%)" decimals={1} />
-          <CarsStatCard end={48.6} label="Left Weight Distribution (%)" decimals={1} />
           
           <CarsStatCard end={25.4} label="Ride Height (mm)" decimals={1} />
-          <CarsStatCard end={2908.9} decimals={1} label="Length (mm)" />
-          <CarsStatCard end={1413.5} decimals={1} label="Width (mm)" />
-          <CarsStatCard end={1066.5} decimals={1} label="Height (mm)" />
+          <CarsStatCard end={1200} decimals={0} label="Trackwidth (mm)" />
+          <CarsStatCard end={1530} decimals={0} label="Wheelbase (mm)" />
           
         </div>
       </section>

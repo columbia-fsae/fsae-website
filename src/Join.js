@@ -68,7 +68,7 @@ function Join() {
           engineering, design, business, or simply love racing, there's a place for you on our team.
         </p>
         <a 
-          href="https://linktr.ee/cufr_onboarding" 
+          href="https://linktr.ee/columbiafsae?lt_utm_source=lt_share_link#504827833" 
           target="_blank" 
           rel="noopener noreferrer" 
           className="join-linktree"

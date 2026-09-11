@@ -127,7 +127,7 @@ function About() {
         <StatCard end={23} label="Nationalities" />
         <StatCard end={18} label="Majors" />
         <StatCard end={17} label="E-Board Members" />
-        <StatCard end={20} label="Sponsors" />
+        <StatCard end={24} label="Sponsors" />
         <StatCard end={5} label="Seconds 0-60 MPH" suffix="s" />
         <StatCard end={9} label="Increase in Club Involvement" prefix="x" />
         <StatCard end={5000} label="Spending Reductions" prefix="$" />

@@ -112,7 +112,7 @@ function Home() {
         />
         <div className="stats-overlay">
           <h2 className="stats-heading">JOIN COLUMBIA'S LARGEST ENGINEERING CLUB</h2>
-          <p className="stats-text">230 MEMBERS, 20 SPONSORS, 16 E-BOARD</p>
+          <p className="stats-text">230 MEMBERS, 24 SPONSORS, 17 E-BOARD</p>
           <div className="stats-button-container">
             <Link to="/about" className="small-button">ABOUT</Link>
             <Link to="/sponsors" className="small-button">SPONSORS</Link>

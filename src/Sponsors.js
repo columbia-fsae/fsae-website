@@ -5,7 +5,7 @@ const sponsors = [
   { name: 'Altium', url: 'https://www.altium.com', image: `${process.env.PUBLIC_URL}/sponsors/altium.svg` },
   { name: 'ADI', url: 'https://www.adiglobaldistribution.us/', image: `${process.env.PUBLIC_URL}/sponsors/adi.png` },
   { name: 'Enepaq', url: 'https://www.enepaq.com', image: `${process.env.PUBLIC_URL}/sponsors/enepaq.svg` },
-  { name: 'GDSNY', url:'http://www.gdsny.com', image: `${process.env.PUBLIC_URL}/sponsors/gdsny.png` },
+  { name: 'Blue Origin', url:'https://www.blueorigin.com', image: `${process.env.PUBLIC_URL}/sponsors/blueorigin.png` },
   { name: 'Tesla', url: 'https://www.tesla.com', image: `${process.env.PUBLIC_URL}/sponsors/tesla.png` },
   { name: 'Rapid Harness', url: 'https://www.rapidharness.com', image: `${process.env.PUBLIC_URL}/sponsors/rapidharness.png` },
   { name: 'Ansys', url: 'https://www.ansys.com', image: `${process.env.PUBLIC_URL}/sponsors/ansys.png` },
@@ -55,7 +55,7 @@ function Sponsors() {
             Donate
           </a>
           <a
-            href={`${process.env.PUBLIC_URL}/sponsorpacket.pdf`}
+            href={`${process.env.PUBLIC_URL}/27sponsorpacket.pdf`}
             className="donate-button"
             target="_blank"
             rel="noopener noreferrer"
