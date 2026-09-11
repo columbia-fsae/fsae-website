@@ -48,22 +48,23 @@ function About() {
   ];
 
   const eboard = [
-    { name: 'Godwill Agbehonou', title: 'President', image: `${process.env.PUBLIC_URL}/headshots/Godwill.JPG` },
-    { name: 'Rosnel Leyva-Cortes', title: 'VP of Techincal Operations', image: `${process.env.PUBLIC_URL}/headshots/Rosnel.JPG` },
-    { name: 'Ren Kirchmann', title: 'VP of Business Affairs', image: `${process.env.PUBLIC_URL}/headshots/Ren.jpg` },
-    { name: 'William Ostling', title: 'Chief Mechanical Engineer', image: `${process.env.PUBLIC_URL}/headshots/Will.JPG` },
-    { name: 'Luke Early', title: 'Chief Electrical Engineer', image: `${process.env.PUBLIC_URL}/headshots/Luke.JPG` },
-    { name: 'Tiller Van Doren', title: 'Chief Manufacturing Engineer', image: `${process.env.PUBLIC_URL}/headshots/Tiller.JPG` },
-    { name: 'Ricardo Victorio', title: 'Vehicle Dynamics Chief', image: `${process.env.PUBLIC_URL}/headshots/Ricardo.JPG` },
-    { name: 'Samad Sulyman', title: 'Powertrain Chief', image: `${process.env.PUBLIC_URL}/headshots/Samad.JPG` },
-    { name: 'Rogelio Sada', title: 'Controls Chief', image: `${process.env.PUBLIC_URL}/headshots/Rogelio.JPG` },
-    { name: 'Lan Huse', title: 'High Voltage Chief', image: `${process.env.PUBLIC_URL}/headshots/Lan.JPG` },
-    { name: 'Sarah Hagan', title: 'Low Voltage Chief', image: `${process.env.PUBLIC_URL}/headshots/Sarah.JPG` },
-    { name: 'Martin Lyubomirov Lozanov', title: 'Frame/Body/Aero Chief', image: `${process.env.PUBLIC_URL}/headshots/Martin.JPG` },
-    { name: 'Jan Espelien', title: 'Electrical Engineering Treasurer', image: `${process.env.PUBLIC_URL}/headshots/Jan.png` },
-    { name: 'Carina Totty', title: 'Mechanical Engineering Treasurer', image: `${process.env.PUBLIC_URL}/headshots/Carina.png` },
-    { name: 'Kate Zhu', title: 'Secretary', image: `${process.env.PUBLIC_URL}/headshots/Kate.JPG` },
-    { name: 'Ava Markwick', title: 'Social Chair', image: `${process.env.PUBLIC_URL}/headshots/Ava.JPG` },
+    { name: 'Ava Markwick', title: 'President', image: `${process.env.PUBLIC_URL}/headshots/CUFR.jpg` },
+    { name: 'Martin Lyubomirov Lozanov', title: 'VP of Techincal Operations', image: `${process.env.PUBLIC_URL}/headshots/CUFR.jpg` },
+    { name: 'Trisha Liu', title: 'VP of Business Affairs', image: `${process.env.PUBLIC_URL}/headshots/CUFR.jpg` },
+    { name: 'Ricardo Victorio', title: 'Chief Mechanical Engineer', image: `${process.env.PUBLIC_URL}/headshots/CUFR.jpg` },
+    { name: 'Ford Rollhaus', title: 'Chief Electrical Engineer', image: `${process.env.PUBLIC_URL}/headshots/CUFR.jpg` },
+    { name: 'Angela Maria De Labra', title: 'Chief Manufacturing Engineer', image: `${process.env.PUBLIC_URL}/headshots/CUFR.jpg` },
+    { name: 'Ryan Bian', title: 'Vehicle Dynamics Chief', image: `${process.env.PUBLIC_URL}/headshots/CUFR.jpg` },
+    { name: 'Ian Cheong', title: 'Powertrain Chief', image: `${process.env.PUBLIC_URL}/headshots/CUFR.jpg` },
+    { name: 'Arda Deniz Altinok', title: 'Controls Chief', image: `${process.env.PUBLIC_URL}/headshots/CUFR.jpg` },
+    { name: 'Jan Espelien', title: 'High Voltage Chief', image: `${process.env.PUBLIC_URL}/headshots/CUFR.jpg` },
+    { name: 'Benjamin Levin', title: 'Low Voltage Chief', image: `${process.env.PUBLIC_URL}/headshots/CUFR.jpg` },
+    { name: 'Laura Robleto', title: 'Frame Chief', image: `${process.env.PUBLIC_URL}/headshots/CUFR.jpg` }, 
+    { name: 'Yohan Sakurai', title: 'Aero Chief', image: `${process.env.PUBLIC_URL}/headshots/CUFR.jpg` },
+    { name: 'Daniel Schwartz', title: 'Electrical Engineering Treasurer', image: `${process.env.PUBLIC_URL}/headshots/CUFR.jpg` },
+    { name: 'Jordan Pham', title: 'Mechanical Engineering Treasurer', image: `${process.env.PUBLIC_URL}/headshots/CUFR.jpg` },
+    { name: 'Kate Zhu', title: 'Secretary', image: `${process.env.PUBLIC_URL}/headshots/CUFR.jpg` },
+    { name: 'Lan Huse', title: 'Social Chair', image: `${process.env.PUBLIC_URL}/headshots/CUFR.jpg` },
   ];
 
   const faculty = [
@@ -124,8 +125,8 @@ function About() {
       <div className="stats-grid">
         <StatCard end={230} label="Members" />
         <StatCard end={23} label="Nationalities" />
-        <StatCard end={16} label="Majors" />
-        <StatCard end={16} label="E-Board Members" />
+        <StatCard end={18} label="Majors" />
+        <StatCard end={17} label="E-Board Members" />
         <StatCard end={20} label="Sponsors" />
         <StatCard end={5} label="Seconds 0-60 MPH" suffix="s" />
         <StatCard end={9} label="Increase in Club Involvement" prefix="x" />

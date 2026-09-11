@@ -32,12 +32,18 @@ function Subteams() {
             </p>
           </div>
           <div style={subteamColumnStyle}>
-            <h4 style={subteamTitleStyle}>Frame/Body/Aero</h4>
+            <h4 style={subteamTitleStyle}>Frame</h4>
             <p style={subteamDescStyle}>
-              Designs the chassis, body, aero, and airflow systems.
+              Optimizes vehicle packaging and load paths through a lightweight steel chassis, validated with FEA for driver safety.
             </p>
           </div>
           <div style={subteamColumnStyle}>
+            <h4 style={subteamTitleStyle}>Aero</h4>
+            <p style={subteamDescStyle}>
+              Optimizes aerodynamic performance through CFD simulations and trackside testing of wings, skirts, and lightweight structures.
+            </p>
+          </div>
+          <div style={{ ...subteamColumnStyle, borderRight: 'none' }}>
             <h4 style={subteamTitleStyle}>Powertrain</h4>
             <p style={subteamDescStyle}>
               Manages the drivetrain, cooling hardware, and HV enclosure components.
@@ -67,28 +73,40 @@ function Subteams() {
         </div>
       </div>
 
-      {/* Admin */}
+      {/* Business */}
       <div style={horizontalCardStyle}>
         <div style={sectionTitleColumnStyle}>
-          <h3 style={sectionTitleStyle}>Admin</h3>
+          <h3 style={sectionTitleStyle}>Business</h3>
         </div>
         <div style={subteamsWrapperStyle}>
           <div style={subteamColumnStyle}>
-            <h4 style={subteamTitleStyle}>Business</h4>
+            <h4 style={subteamTitleStyle}>Sponsorships</h4>
             <p style={subteamDescStyle}>
-              Builds the business case for competition and develops the club’s growth strategy.
+              Develops sponsor relationships, coordinates recruiting/networking events, and drives sponsorship strategy.
             </p>
           </div>
           <div style={subteamColumnStyle}>
-            <h4 style={subteamTitleStyle}>Sponsor Team</h4>
+            <h4 style={subteamTitleStyle}>Branding & Media</h4>
             <p style={subteamDescStyle}>
-              Conducts sponsor outreach, maintains partnerships, and manages fundraising.
+              Creates team content, recruitment materials, sponsor spotlights, and external design materials.
+            </p>
+          </div>
+          <div style={subteamColumnStyle}>
+            <h4 style={subteamTitleStyle}>Merchandise</h4>
+            <p style={subteamDescStyle}>
+              Designs team apparel and merchandise, researches vendors, and manages sales.
+            </p>
+          </div>
+          <div style={subteamColumnStyle}>
+            <h4 style={subteamTitleStyle}>Events</h4>
+            <p style={subteamDescStyle}>
+              Plans and coordinates social events, alumni mixers, fundraisers, and formals.
             </p>
           </div>
           <div style={{ ...subteamColumnStyle, borderRight: 'none' }}>
-            <h4 style={subteamTitleStyle}>Social</h4>
+            <h4 style={subteamTitleStyle}>Business Presentation</h4>
             <p style={subteamDescStyle}>
-              Coordinates club events, team culture, and external engagement.
+              Conducts market and financial analysis to develop business cases for competition.
             </p>
           </div>
         </div>
@@ -103,6 +121,9 @@ function Subteams() {
     </div>
   );
 }
+
+
+
 
 const pageStyle = {
   width: '100%',
