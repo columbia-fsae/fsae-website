@@ -294,10 +294,14 @@
     max-width: 220px;
     height: 240px;
     object-fit: cover;
-    object-position: center 10%;
+    object-position: center 60%;
     border-radius: 12px;
     margin-bottom: 12px;
   }
+
+  .eboard-image.eboard-image-center {
+  object-position: center center;
+}
   
   .eboard-name {
     font-size: 1.1rem;

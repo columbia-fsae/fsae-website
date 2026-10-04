@@ -48,23 +48,23 @@ function About() {
   ];
 
   const eboard = [
-    { name: 'Ava Markwick', title: 'President', image: `${process.env.PUBLIC_URL}/headshots/CUFR.jpg` },
-    { name: 'Martin Lyubomirov Lozanov', title: 'VP of Techincal Operations', image: `${process.env.PUBLIC_URL}/headshots/CUFR.jpg` },
-    { name: 'Trisha Liu', title: 'VP of Business Affairs', image: `${process.env.PUBLIC_URL}/headshots/CUFR.jpg` },
-    { name: 'Ricardo Victorio', title: 'Chief Mechanical Engineer', image: `${process.env.PUBLIC_URL}/headshots/CUFR.jpg` },
-    { name: 'Ford Rollhaus', title: 'Chief Electrical Engineer', image: `${process.env.PUBLIC_URL}/headshots/CUFR.jpg` },
-    { name: 'Angela Maria De Labra', title: 'Chief Manufacturing Engineer', image: `${process.env.PUBLIC_URL}/headshots/CUFR.jpg` },
-    { name: 'Ryan Bian', title: 'Vehicle Dynamics Chief', image: `${process.env.PUBLIC_URL}/headshots/CUFR.jpg` },
-    { name: 'Ian Cheong', title: 'Powertrain Chief', image: `${process.env.PUBLIC_URL}/headshots/CUFR.jpg` },
-    { name: 'Arda Deniz Altinok', title: 'Controls Chief', image: `${process.env.PUBLIC_URL}/headshots/CUFR.jpg` },
-    { name: 'Jan Espelien', title: 'High Voltage Chief', image: `${process.env.PUBLIC_URL}/headshots/CUFR.jpg` },
-    { name: 'Benjamin Levin', title: 'Low Voltage Chief', image: `${process.env.PUBLIC_URL}/headshots/CUFR.jpg` },
-    { name: 'Laura Robleto', title: 'Frame Chief', image: `${process.env.PUBLIC_URL}/headshots/CUFR.jpg` }, 
-    { name: 'Yohan Sakurai', title: 'Aero Chief', image: `${process.env.PUBLIC_URL}/headshots/CUFR.jpg` },
-    { name: 'Daniel Schwartz', title: 'Electrical Engineering Treasurer', image: `${process.env.PUBLIC_URL}/headshots/CUFR.jpg` },
-    { name: 'Jordan Pham', title: 'Mechanical Engineering Treasurer', image: `${process.env.PUBLIC_URL}/headshots/CUFR.jpg` },
-    { name: 'Kate Zhu', title: 'Secretary', image: `${process.env.PUBLIC_URL}/headshots/CUFR.jpg` },
-    { name: 'Lan Huse', title: 'Social Chair', image: `${process.env.PUBLIC_URL}/headshots/CUFR.jpg` },
+    { name: 'Ava Markwick', title: 'President', image: `${process.env.PUBLIC_URL}/headshots/Ava.jpg` },
+    { name: 'Martin Lyubomirov Lozanov', title: 'VP of Techincal Operations', image: `${process.env.PUBLIC_URL}/headshots/Martin.jpg` },
+    { name: 'Trisha Liu', title: 'VP of Business Affairs', image: `${process.env.PUBLIC_URL}/headshots/Trisha.jpg` },
+    { name: 'Ricardo Victorio', title: 'Chief Mechanical Engineer', image: `${process.env.PUBLIC_URL}/headshots/Ricardo.jpg` },
+    { name: 'Ford Rollhaus', title: 'Chief Electrical Engineer', image: `${process.env.PUBLIC_URL}/headshots/Ford.jpg` },
+    { name: 'Angela Maria De Labra', title: 'Chief Manufacturing Engineer', image: `${process.env.PUBLIC_URL}/headshots/Angela.jpg` },
+    { name: 'Ryan Bian', title: 'Vehicle Dynamics Chief', image: `${process.env.PUBLIC_URL}/headshots/Ryan.jpg` },
+    { name: 'Ian Cheong', title: 'Powertrain Chief', image: `${process.env.PUBLIC_URL}/headshots/Ian.jpg` },
+    { name: 'Arda Deniz Altinok', title: 'Controls Chief', image: `${process.env.PUBLIC_URL}/headshots/Arda.jpg` },
+    { name: 'Jan Espelien', title: 'High Voltage Chief', image: `${process.env.PUBLIC_URL}/headshots/Jan.jpg` },
+    { name: 'Benjamin Levin', title: 'Low Voltage Chief', image: `${process.env.PUBLIC_URL}/headshots/Ben.jpg` },
+    { name: 'Laura Robleto', title: 'Frame Chief', image: `${process.env.PUBLIC_URL}/headshots/CUFR.jpg`}, 
+    { name: 'Yohan Sakurai', title: 'Aero Chief', image: `${process.env.PUBLIC_URL}/headshots/Yohan.jpg` },
+    { name: 'Daniel Schwartz', title: 'Electrical Engineering Treasurer', image: `${process.env.PUBLIC_URL}/headshots/Daniel.jpg` },
+    { name: 'Jordan Pham', title: 'Mechanical Engineering Treasurer', image: `${process.env.PUBLIC_URL}/headshots/Jordan.jpg` },
+    { name: 'Kate Zhu', title: 'Secretary', image: `${process.env.PUBLIC_URL}/headshots/Kate.jpg` },
+    { name: 'Lan Huse', title: 'Social Chair', image: `${process.env.PUBLIC_URL}/headshots/Lan.JPG`},
   ];
 
   const faculty = [
@@ -157,7 +157,7 @@ function About() {
         <div className="eboard-grid">
           {eboard.map((member, i) => (
             <div key={i} className="eboard-card">
-              <img src={member.image} alt={member.name} className="eboard-image" />
+              <img src={member.image} alt={member.name} className="eboard-image"  />
               <div className="eboard-name">{member.name}</div>
               <div className="eboard-title">{member.title}</div>
             </div>
