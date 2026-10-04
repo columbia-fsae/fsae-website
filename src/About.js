@@ -49,7 +49,7 @@ function About() {
 
   const eboard = [
     { name: 'Ava Markwick', title: 'President', image: `${process.env.PUBLIC_URL}/headshots/Ava.jpg` },
-    { name: 'Martin Lyubomirov Lozanov', title: 'VP of Techincal Operations', image: `${process.env.PUBLIC_URL}/headshots/Martin.jpg` },
+    { name: 'Martin Lyubomirov Lozanov', title: 'VP of Technical Operations', image: `${process.env.PUBLIC_URL}/headshots/Martin.jpg` },
     { name: 'Trisha Liu', title: 'VP of Business Affairs', image: `${process.env.PUBLIC_URL}/headshots/Trisha.jpg` },
     { name: 'Ricardo Victorio', title: 'Chief Mechanical Engineer', image: `${process.env.PUBLIC_URL}/headshots/Ricardo.jpg` },
     { name: 'Ford Rollhaus', title: 'Chief Electrical Engineer', image: `${process.env.PUBLIC_URL}/headshots/Ford.jpg` },
