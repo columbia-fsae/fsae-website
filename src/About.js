@@ -121,7 +121,7 @@ function About() {
 
       {/* By the Numbers */}
       <section className="numbers-section">
-      <h2 className="section-title">2025 BY THE NUMBERS</h2>
+      <h2 className="section-title">2026 BY THE NUMBERS</h2>
       <div className="stats-grid">
         <StatCard end={230} label="Members" />
         <StatCard end={23} label="Nationalities" />

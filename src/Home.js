@@ -85,17 +85,17 @@ function Home() {
         </div>
       </section>
 
-      <section className="ev25-preview-section">
-        <img src="/ev25/25-1.jpg" alt="EV25 Preview" className="ev25-preview-image" />
-        <div className="ev25-preview-overlay">
-          <h2 className="ev25-preview-title">INTRODUCING EV25</h2>
-          <p className="ev25-preview-text">
-            Built by 200+ Columbia engineers, EV25 blends power, precision, and team spirit.
+      <section className="ev26-preview-section">
+        <img src="/ev26/26-2.jpg" alt="EV26 Preview" className="ev26-preview-image" />
+        <div className="ev26-preview-overlay">
+          <h2 className="ev26-preview-title">INTRODUCING EV26</h2>
+          <p className="ev26-preview-text">
+            Built by 200+ Columbia engineers, EV26 blends power, precision, and team spirit.
           </p>
           <Link
             to="/cars"
             replace
-            className="ev25-preview-button"
+            className="ev26-preview-button"
             onClick={() => window.scrollTo(0, 0)}
           >
             Explore the Car →

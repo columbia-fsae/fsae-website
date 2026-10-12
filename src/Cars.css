@@ -3,7 +3,7 @@
     width: 100%;
     background-color: black;
     color: white;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Montserrat', sans-serif;
   }
   
   /* Hero Section */
@@ -260,7 +260,7 @@
     position: absolute;
     top: 80px;
     left: 120px;
-    max-width: 602%;
+    max-width: 60%;
     padding: 20px;
     border-radius: 8px;
     color: white;
@@ -297,7 +297,7 @@
     position: absolute;
     top: 80px;
     left: 120px;
-    max-width: 602%;
+    max-width: 60%;
     padding: 20px;
     border-radius: 8px;
     color: white;
@@ -316,6 +316,69 @@
   }
 
 
+  
+/* EV26 only — does not affect EV25 / EV24 */
+.ev26-content .cars-hero-intro-text {
+  top: 170px;      /* move up/down */
+  right: 60px;    /* move left/right; use left: 60px instead to pin left */
+  color: #ffffff; /* heading + body inherit this unless you override them */
+}
+
+.ev26-content .cars-hero-intro-text h2 {
+  margin-bottom: 0;
+  line-height: 1.1;
+  color: #ffffff;
+}
+
+.ev26-content .cars-hero-intro-text p {
+  margin-top: 8px;
+  color: #ffffff;
+}
+
+.ev26-content .cars-overlay-text-1 {
+  top: 150px;
+  right: 120px;
+  color: #ffffff;
+}
+
+.ev26-content .cars-overlay-text-2{
+  top: 80px;
+  left: 220px;
+  color: #ffffff;
+}
+
+.ev26-content .cars-overlay-text-3 {
+  top: auto;
+  bottom: 130px;
+  left: 120px;
+  color: #ffffff;
+}
+
+.ev26-content .cars-overlay-text {
+  top: 170px;
+  left: 160px;
+  color: #ffffff;
+}
+
+.ev26-content .cars-hero-intro-text,
+.ev26-content .cars-overlay-text-1,
+.ev26-content .cars-overlay-text-2,
+.ev26-content .cars-overlay-text-3, 
+.ev26-content .cars-overlay-text {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.ev26-content .cars-stats-note {
+  max-width: 1100px;
+  margin: 24px auto 0;
+  padding: 0 4px;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.55);
+  text-align: left;
+}
 
   /* Stats Section */
   .cars-stats-section {
