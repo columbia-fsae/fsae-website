@@ -25,7 +25,7 @@ function CarsStatCard({ end, label, suffix, prefix, decimals = 0 }) {
 function Cars() {
   const [selectedCar, setSelectedCar] = useState('ev26');
 
-    const renderEV26 = () => (
+    const renderEV26 = () => ( 
     <div className="car-conten ev26-content">
       <div className="cars-hero-intro-container">
         <img src="/ev26/26-2.jpg" alt="EV26 Hero" className="cars-hero-intro-image" />
