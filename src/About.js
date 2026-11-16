@@ -64,7 +64,7 @@ function About() {
     { name: 'Daniel Schwartz', title: 'Electrical Engineering Treasurer', image: `${process.env.PUBLIC_URL}/headshots/Daniel.jpg` },
     { name: 'Jordan Pham', title: 'Mechanical Engineering Treasurer', image: `${process.env.PUBLIC_URL}/headshots/Jordan.jpg` },
     { name: 'Kate Zhu', title: 'Secretary', image: `${process.env.PUBLIC_URL}/headshots/Kate.jpg` },
-    { name: 'Lan Huse', title: 'Social Chair', image: `${process.env.PUBLIC_URL}/headshots/Lan.JPG`},
+    { name: 'Esther Lee', title: 'Social Chair', image: `${process.env.PUBLIC_URL}/headshots/Esther.jpg`},
   ];
 
   const faculty = [
